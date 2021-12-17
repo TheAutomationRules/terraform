@@ -1,2 +1,2 @@
-# hashicorp-terraform
+# HashiCorp-Terraform
 HashiCorp Terraform Code
