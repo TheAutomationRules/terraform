@@ -8,4 +8,8 @@ cat << EOF > /home/ubuntu/test.txt
 // ARCHIVO DE PRUEBA
    Contenido del archivo de texto.
 // FIN DE ARCHIVO DE PRUEBA
+<<<<<<< HEAD
 EOF
+=======
+EOF
+>>>>>>> origin/main
