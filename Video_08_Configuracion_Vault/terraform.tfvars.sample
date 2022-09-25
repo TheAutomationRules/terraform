@@ -1,0 +1,13 @@
+#-------------------------------------------------------------------------------
+# AWS & SERVICES VARIABLES
+#-------------------------------------------------------------------------------
+
+# VAULT ROOT TOKEN
+vault_root_token = "<ROOT TOKEN HERE>"
+vault_addr       = "nuc.lan"
+
+# AWS theautomationrules
+aws_account_id_theautomationrules = "<AWS ACCOUNT ID HERE>"
+# AWS USER vault_nuc_test
+access_key_theautomationrules = "<ACCESS KEY HERE>"
+secret_key_theautomationrules = "<SECRET KEY HERE>"
