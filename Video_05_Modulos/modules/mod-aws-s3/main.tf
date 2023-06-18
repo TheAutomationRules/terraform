@@ -8,6 +8,13 @@ resource "aws_s3_bucket" "s3-bucket" {
   tags = var.tags
 }
 
+resource "aws_s3_bucket_ownership_controls" "s3_bucket_acl_ownership" {
+  bucket = aws_s3_bucket.s3-bucket.id
+  rule {
+    object_ownership = "ObjectWriter"
+  }
+}
+
 resource "aws_s3_bucket_acl" "example_bucket_acl" {
   bucket = aws_s3_bucket.s3-bucket.id
   acl    = "private"
